@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tasl2</title>
+	<link rel="stylesheet" href="css/style_task2.css">
+</head>
+<body>
+<a href="Task1.html">Task1</a> -
+<a href="HomePage.html">home</a> -
+<a href="Task3.html">task3</a>
+<br>
+<form action="" method="post" enctype="text/plain">
+	<fieldset class="personalInformation">
+		<legend>Personal information</legend>
+		<table>
+			<tr>
+				<td><label for="firstName" class="requiredNotification">First name:</label></td>
+				<td><input type="text" name="firstName" id="firstName" required></td>
+			</tr>
+			<tr>
+				<td><label for="middleName">Middle name:</label></td>
+				<td><input type="text" name="middleName" id="middleName"></td>
+			</tr>
+			<tr>
+				<td><label for="lastName" class="requiredNotification">Last name:</label></td>
+				<td><input type="text" name="lastName" id="lastName" required></td>
+			</tr>
+		</table>
+	</fieldset>
+	<fieldset class="address">
+		<legend>Address</legend>
+		<table>
+			<tr>
+				<td><label for="address">Address:</label></td>
+				<td><input type="text" name="address" id="address"></td>
+			</tr>
+			<tr>
+				<td><label for="cityOrTown">City or Town:</label></td>
+				<td><input type="text" name="cityOrTown" id="cityOrTown"></td>
+			</tr>
+			<tr>
+				<td><label for="state">State:</label></td>
+				<td>
+					<select name="state" id="state">
+						<option disabled selected>choose of state</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="zipCode" class="requiredNotification">Zip code:</label></td>
+				<td><input type="text" name="zipCode" id="zipCode" required></td>
+			</tr>
+		</table>
+	</fieldset>
+	<input type="submit" value="Отправить" class="button">
+</form>
+
+</body>
+</html>

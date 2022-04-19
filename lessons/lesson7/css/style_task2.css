@@ -1,0 +1,78 @@
+form {
+    width: 350px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+fieldset.personalInformation, fieldset.address {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top-color: rgba(128, 128, 128, 0.22);
+}
+
+    fieldset legend {
+        font-weight: bold;
+        color: #002d8a;
+        padding: 0 20px;
+    }
+
+    fieldset form {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+        select {
+            width: 158px;
+            height: 22px;
+        }
+
+    form table {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+        form td {
+            text-align: right;
+        }
+
+        td input {
+            width: 150px;
+        }
+
+label.requiredNotification {
+    font-weight: bold;
+}
+label.requiredNotification::before {
+    content: "*";
+    position: relative;
+    top: -5px;
+    font-size: 12px;
+}
+
+input.button {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    width: 50%;
+    height: 40%;
+    background-color: rgba(0, 102, 203, 0.93);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 5%;
+    border: 0px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.53);
+}
+
+    input.button:hover {
+        transition: 0.3s;
+        background-color: rgba(0, 91, 183, 0.93);
+    }

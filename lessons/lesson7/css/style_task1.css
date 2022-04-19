@@ -1,0 +1,45 @@
+form {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    /*border-radius: 60px;*/
+    border-radius: 60px;
+    margin: 100px auto;
+    background-color: rgba(245, 245, 245, 0.72);
+}
+
+    input.login, input.pass, input.button {
+        display: block;
+        text-align: center;
+        font-size: 150%;
+        width: 80%;
+        height: 20%;
+        background-color: white;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.53);
+    }
+
+        input.login {
+            margin-top: 5%;
+        }
+
+        input.pass {
+            margin-top: 5%;
+        }
+
+        input.button {
+            color: white;
+            font-weight: bold;
+            width: 40%;
+            margin-top: 5%;
+            background-color: rgba(0, 102, 203, 0.93);
+        }
+
+            input.button:hover {
+                background-color: rgba(0, 91, 183, 0.93);
+            }
