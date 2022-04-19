@@ -1,0 +1,9 @@
+p {
+    color: #5e00ff;
+    border: 5px double grey;
+}
+
+.pStyle {
+    color: gray;
+    font-style: italic;
+}

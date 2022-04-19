@@ -1,0 +1,37 @@
+div {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.pStyle1 {
+    border: 5px solid black;
+}
+
+.pStyle2 {
+    border: 5px dashed black;
+}
+
+.pStyle3 {
+    border: 5px dotted black;
+}
+
+.pStyle4 {
+    border: 5px double black;
+}
+
+.pStyle5 {
+    border: 5px groove #5f9d9f;
+}
+
+.pStyle6 {
+    border: 5px ridge #5f9d9f;
+}
+
+.pStyle7 {
+    border: 5px inset #5f9d9f;
+}
+
+.pStyle8 {
+    border: 5px outset #5f9d9f;
+}

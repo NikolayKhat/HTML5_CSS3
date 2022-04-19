@@ -1,0 +1,38 @@
+div {
+    text-align: center;
+    width: 600px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-image: url("../images/matrix.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pStyle1 {
+    color: white;
+    font-weight: bold;
+    background: blue;
+}
+
+.pStyle2 {
+    font-weight: bold;
+    background: rgb(200, 100, 300);
+}
+
+.pStyle3 {
+    font-weight: bold;
+    background: center url("../images/css.png");
+    background-size: auto 90px;
+}
+
+.pStyle4 {
+    color: white;
+    font-weight: bold;
+    background: hsla(0, 100%, 50%, 0.5);
+}
+
+.pStyle5 {
+    font-weight: bold;
+    background: #ffee21;
+}
