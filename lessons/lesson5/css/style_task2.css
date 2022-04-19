@@ -1,0 +1,39 @@
+div.body {
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    background-color: black;
+}
+
+div.header {
+    height: 100px;
+    background-color: #1dffee;
+}
+
+div.left-bar {
+    height: 50px;
+    background-color: #ff7d90;
+}
+
+div.main {
+    height: 450px;
+}
+
+div.menu {
+    width: 20%;
+    height: 450px;
+    background-color: #3bff88;
+    float: left;
+}
+
+div.content {
+    width: 80%;
+    height: 450px;
+    background-color: #d3d3d3;
+    float: left;
+}
+
+div.footer {
+    height: 50px;
+    background-color: #155eff;
+}
