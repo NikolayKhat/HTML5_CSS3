@@ -1,0 +1,103 @@
+table {
+    text-align: justify;
+    width: 600px;
+    height: 600px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    empty-cells: hide;
+    padding: 10px;
+    border: none;
+    border-spacing: 10px;
+    border-radius: 5%;
+    background-color: #5e00ff;
+}
+
+td {
+    width: 33%;
+    height: 33%;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5%;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+a[href$=".svg"] {
+    background: url("../images/iconSVG.png") 100% 50% no-repeat;
+    padding-right: 20px;
+}
+
+td a {
+    color: #5e00ff;
+    text-decoration: none;
+}
+
+td a:hover {
+    transition: 0.3s;
+    text-shadow: 0px 0px 3px #5e00ff;
+}
+
+.hrefRed:hover, .hrefYellow:hover, .hrefGreen:hover {
+    transition: 0.3s;
+    text-shadow: none;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: inset 0px 0px 6px;
+}
+
+.hrefRed:hover {
+    color: red;
+}
+
+.hrefYellow:hover {
+    color: yellow;
+}
+
+.hrefGreen:hover {
+    color: green;
+}
+
+.point {
+    list-style-image: url("../images/point.svg");
+}
+
+span {
+    
+}
+
+ol {
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+}
+
+ol li {
+    list-style-type: lower-greek;
+}
+
+.marker p:first-child:before,
+.marker p:last-child:before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    margin-right: 5px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px double;
+    border-top: 3px double;
+    border-radius: 3px;
+}
+
+.marker p:first-child:before {
+    border-color: #58ff42;
+}
+
+.marker p:last-child:before {
+    border-color: #ffa621;
+}

@@ -1,0 +1,27 @@
+div {
+    text-align: justify;
+    text-indent: 40px;
+    width: 600px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+p::first-line {
+    color: #7b00ff;
+}
+
+.pStyle1 {
+    font-size: 20px;
+    font-family: "Bauhaus 93";
+}
+
+.pStyle2 {
+    font-size: 20px;
+    font-family: "Jokerman";
+}
+
+.pStyle3 {
+    font-size: 30px;
+    font-family: "Edwardian Script ITC";
+}
