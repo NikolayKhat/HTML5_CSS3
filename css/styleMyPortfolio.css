@@ -1,0 +1,74 @@
+/* Footer */
+.footer {
+    background-color: #212529;
+}
+
+.footer h4 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 3px;
+
+    /*width: 70%;*/
+}
+
+.footer a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.footer a:hover {
+    color: #cbcbcb;
+    text-decoration: underline;
+}
+
+.footer a, .footer li {
+    color: #9b9d9e;
+}
+
+/* Footer */
+
+/* Header*/
+.navbar-dark .container .navbar-brand {
+    color: #e5e5e5;
+}
+
+.navbar-dark .container .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: #e4e4e4;
+}
+/* Header*/
+
+/* Carousel */
+.my-carousel .carousel-item {
+    max-height: 300px;
+}
+
+.my-carousel .carousel-inner {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* Carousel */
+
+/* Lessons */
+.lessons {
+    padding-bottom: 50px;
+}
+
+.lessons h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    width: 70%;
+    border-bottom: 1px solid #313131;
+}
+.lessons a {
+    color: #313131;
+    text-decoration: none;
+}
+/* Lessons */
